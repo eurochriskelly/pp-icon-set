@@ -95,7 +95,7 @@ class NodeManipulator {
       node.setAttribute('stroke', fgColor);
       node.removeAttribute('fill');
       node.setAttribute('stroke-opacity', '1');
-      node.removeAttribute('fill-opacity');
+      node.setAttribute('fill-opacity', '0');  // Explicitly set fill-opacity to 0
       this.addClass(node, 'fg');
     }
     
