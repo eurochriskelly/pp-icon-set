@@ -11,3 +11,8 @@ export: bin/export-icons.js
 	@node bin/export-icons.js
 	@ls -lG out/*.svg
 	@echo "Export complete"
+
+publish:
+	@echo "Publishing icons..."
+	@cp out/*.svg ../gaelic-cup-planner/src/frontend/interfaces/mobile/public/icons/
+	@echo "Complete"

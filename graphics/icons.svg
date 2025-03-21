@@ -24,16 +24,17 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="6.9881315"
-     inkscape:cx="32.912947"
-     inkscape:cy="58.885555"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="78.842406"
+     inkscape:cy="72.21328"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="icon-schedule"
-     inkscape:lockguides="false">
+     inkscape:current-layer="icon-move"
+     inkscape:lockguides="false"
+     showgrid="false">
     <sodipodi:guide
        position="4.9773289,41.134969"
        orientation="1,0"
@@ -68,6 +69,25 @@
        position="25,48.86503"
        orientation="1,0"
        id="guide44"
+       inkscape:locked="false" />
+    <inkscape:grid
+       id="grid62"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+    <sodipodi:guide
+       position="-14.50144,40.05332"
+       orientation="1,0"
+       id="guide62"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
@@ -547,6 +567,78 @@
       </g>
     </g>
     <g
+       id="icon-reset"
+       style="display:inline"
+       transform="translate(-10.868746,8.016499)">
+      <rect
+         id="icon-reset-clickable"
+         x="30.943344"
+         y="2.137162"
+         width="9.8534613"
+         height="9.8534603"
+         fill="#f6d5ff"
+         fill-opacity="0.15052"
+         stroke="#d40055"
+         stroke-dasharray="0.0452804, 0.18112"
+         stroke-width="0.0280007"
+         style="mix-blend-mode:normal;fill:#1c0322;fill-opacity:0.237251;stroke-miterlimit:4.1" />
+      <text
+         x="35.80447"
+         y="10.763562"
+         fill="#000000"
+         font-family="'Devanagari Sangam MN'"
+         font-size="1.05771px"
+         font-weight="bold"
+         letter-spacing="0.14689px"
+         stroke-linecap="round"
+         stroke-miterlimit="4.1"
+         stroke-width="0.285162"
+         text-align="center"
+         text-anchor="middle"
+         word-spacing="0.0083458px"
+         style="line-height:1.2;mix-blend-mode:normal;fill:#ffffff;stroke:none"
+         xml:space="preserve"
+         id="text57"><tspan
+           x="35.839375"
+           y="10.763562"
+           fill="#000000"
+           font-size="1.05771px"
+           stroke-width="0.285162"
+           id="tspan57"
+           style="fill:#ffffff;stroke:none">RESET</tspan></text>
+      <g
+         transform="matrix(0.77111367,0,0,0.77111367,1.1683223,0.99431922)"
+         fill="none"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-miterlimit="4.1"
+         stroke-width="0.8"
+         id="g61"
+         style="stroke:#ffffff">
+        <path
+           d="M 42.761,8.5187 C 42.18788,7.94558 41.8334,7.1538 41.8334,6.2793 c 0,-1.7491 1.4179,-3.167 3.167,-3.167 1.7491,1e-7 3.167,1.4179 3.167,3.167 0,1.7491 -1.4179,3.167 -3.167,3.167"
+           id="path57"
+           style="stroke:#ffffff" />
+        <g
+           stroke-linejoin="round"
+           id="g60"
+           style="stroke:#ffffff">
+          <path
+             d="m 45.861,7.1041 -1,-0.7307 V 4.4227"
+             id="path58"
+             style="stroke:#ffffff" />
+          <path
+             d="M 42.732,8.6749 43.17713,7.3415"
+             id="path59"
+             style="stroke:#ffffff" />
+          <path
+             d="M 42.699,8.6898 41.3225,8.40466"
+             id="path60"
+             style="stroke:#ffffff" />
+        </g>
+      </g>
+    </g>
+    <g
        id="icon-home"
        inkscape:label="icon-home">
       <rect
@@ -802,36 +894,26 @@
            stroke-width="0.285162"
            id="tspan35"
            style="fill:#ffffff;stroke:none">MOVE</tspan></text>
+      <circle
+         cx="35.894901"
+         cy="5.8625283"
+         r="2.7767174"
+         id="circle34-8"
+         style="display:inline;fill:#ffffff;stroke-width:0.778446" />
       <g
-         transform="matrix(0.77111367,0,0,0.77111367,1.1683223,0.99431922)"
-         fill="none"
-         stroke="#000000"
-         stroke-linecap="round"
-         stroke-miterlimit="4.1"
-         stroke-width="0.8"
-         id="g40"
-         style="stroke:#ffffff">
+         id="icon-move-invert"
+         transform="translate(17.310794,-1.290739)"
+         style="fill:#53614f;fill-opacity:1">
         <path
-           d="M 42.761,8.5187 C 42.18788,7.94558 41.8334,7.1538 41.8334,6.2793 c 0,-1.7491 1.4179,-3.167 3.167,-3.167 1.7491,1e-7 3.167,1.4179 3.167,3.167 0,1.7491 -1.4179,3.167 -3.167,3.167"
-           id="path36"
-           style="stroke:#ffffff" />
-        <g
-           stroke-linejoin="round"
-           id="g39"
-           style="stroke:#ffffff">
-          <path
-             d="m 45.861,7.1041 -1,-0.7307 V 4.4227"
-             id="path37"
-             style="stroke:#ffffff" />
-          <path
-             d="M 42.732,8.6749 43.17713,7.3415"
-             id="path38"
-             style="stroke:#ffffff" />
-          <path
-             d="M 42.699,8.6898 41.3225,8.40466"
-             id="path39"
-             style="stroke:#ffffff" />
-        </g>
+           style="fill:#447c34;fill-opacity:1;stroke:none;stroke-width:0.384871;stroke-dasharray:none;stroke-opacity:1"
+           d="m 17.799721,7.4147293 h 0.522924 V 6.3688815 h 0.522924 L 18.06043,5.3230337 17.276798,6.3688815 h 0.522923 z"
+           id="path62"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="fill:#447c34;fill-opacity:1;stroke:none;stroke-width:0.384871;stroke-dasharray:none;stroke-opacity:1"
+           d="M 19.368493,6.8918055 H 18.845569 V 7.9376533 H 18.322645 L 19.107784,8.983501 19.891417,7.9376533 H 19.368493 Z"
+           id="path63"
+           sodipodi:nodetypes="cccccccc" />
       </g>
     </g>
     <g
