@@ -124,7 +124,7 @@ class NodeManipulator {
           child.setAttribute('stroke', bgColor);
           child.removeAttribute('fill');
           child.setAttribute('stroke-opacity', '1');
-          child.removeAttribute('fill-opacity');
+          child.setAttribute('fill-opacity', '0');  // Explicitly set fill-opacity to 0
         }
         child.removeAttribute('opacity');
       }
