@@ -1,0 +1,92 @@
+<svg width="50mm" height="50mm" version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="linearGradient65" x1=".104" x2="94.5" y1="28.5" y2="28.5" gradientTransform="matrix(.265 0 0 .278 -5.13 -13.2)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#eed7f4" stop-opacity=".188" offset="0"/>
+  </linearGradient>
+ </defs>
+ <g id="id-icon-grid" stroke="#35af18">
+  <rect x="-.0267" y=".0914" width="50" height="50" fill="#cbcebe" stroke-width=".1"/>
+  <g fill="#f4e3d7" fill-opacity=".68" stroke-width=".129">
+   <path d="m0 0.0647h50"/>
+   <path d="m0 10.1h50"/>
+   <path d="m0 20.1h50"/>
+   <path d="m0 30.1h50"/>
+   <path d="m0 40.1h50"/>
+   <path d="m0 50.1h50"/>
+   <path d="m50 0.0914v50"/>
+   <path d="m40 0.0914v50"/>
+   <path d="m30 0.0914v50"/>
+   <path d="m20 0.0914v50"/>
+   <path d="m9.98 0.0914v50"/>
+   <path d="m-0.0267 0.0914v50"/>
+  </g>
+  <g fill="none" stroke-width=".1">
+   <rect x="1.13" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="11.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="21.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="31.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="41.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+  </g>
+  <g transform="translate(0 9.92)" fill="none" stroke-width=".1">
+   <rect x="1.13" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="11.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="21.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="31.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="41.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+  </g>
+  <g transform="translate(0 19.9)" fill="none" stroke-width=".1">
+   <rect x="1.13" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="11.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="21.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="31.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="41.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+  </g>
+  <g transform="translate(0 29.9)" fill="none" stroke-width=".1">
+   <rect x="1.13" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="11.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="21.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="31.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="41.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+  </g>
+  <g transform="translate(0 39.9)" fill="none" stroke-width=".1">
+   <rect x="1.13" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="11.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="21.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="31.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+   <rect x="41.1" y="1.13" width="7.73" height="7.73" opacity=".2"/>
+  </g>
+ </g>
+ <path id="share-divider" d="m-5.11-5.29h25" fill="url(#linearGradient65)" fill-opacity=".188" stroke="#fff" stroke-opacity=".258" stroke-width=".0598"/>
+ <g id="id-icon-collection">
+  <g id="icon-schedule-base">
+   <rect id="icon-schedule-clickable" x="1.09" y="1.09" width="7.78" height="7.78" fill="#f6d5ff" fill-opacity=".151" stroke="#d40055" stroke-dasharray="0.0452804, 0.181119" stroke-width=".0221" style="mix-blend-mode:normal"/>
+   <text id="txt-schedule" transform="scale(.976 1.02)" x="4.9840231" y="8.6497364" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.03px" font-weight="bold" letter-spacing=".166px" stroke-linecap="round" stroke-miterlimit="4.1" stroke-width=".246" text-align="center" text-anchor="middle" word-spacing=".00945px" style="line-height:1.2;mix-blend-mode:normal" xml:space="preserve"><tspan x="5.0180807" y="8.6497364" fill="#ffffff" font-size="1.03px" stroke-width=".246">SCHEDULE</tspan></text>
+   <g id="view-schedule-icon" transform="matrix(.774 0 0 .813 -16.2 -24.9)" stroke-width=".929">
+    <rect x="24.2" y="32.8" width="5.5" height="4.77" rx=".474" ry=".519" fill="#fff"/>
+    <circle cx="29.3" cy="37.9" r="1.5" fill="#fff" stroke="#50614d" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
+    <g stroke-width=".929">
+     <g id="sched-darkarea">
+      <g fill="#53614f">
+       <rect x="24.9" y="34.8" width=".962" height=".811" rx=".193" ry=".156"/>
+       <rect x="26.5" y="34.8" width=".962" height=".811" rx=".193" ry=".156"/>
+       <rect x="28" y="34.8" width=".962" height=".811" rx=".193" ry=".156"/>
+       <rect x="24.9" y="36.2" width=".962" height=".811" rx=".193" ry=".156"/>
+       <rect x="26.5" y="36.2" width=".962" height=".811" rx=".193" ry=".156"/>
+      </g>
+      <path d="m23.9 34.1h5.98" fill="#fff" stroke="#50614d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
+      <path d="m29.4 37v0.866h0.657" fill="none" stroke="#50614d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
+      <rect x="25.1" y="32" width="1.16" height="1.5" rx=".41" ry=".339" fill="#53614f"/>
+      <rect x="27.6" y="32" width="1.16" height="1.5" rx=".41" ry=".339" fill="#53614f"/>
+     </g>
+    </g>
+    <rect x="25.4" y="32.3" width=".614" height=".956" rx=".193" ry=".156" fill="#fff"/>
+    <rect x="27.9" y="32.3" width=".614" height=".956" rx=".193" ry=".156" fill="#fff"/>
+   </g>
+  </g>
+  <g stroke-miterlimit="4.1">
+   <rect id="icon-home-clickable" x="11.1" y="1.13" width="7.73" height="7.73" fill="#f6d5ff" fill-opacity=".151" stroke="#d40055" stroke-dasharray="0.0452804, 0.18112" stroke-width=".022" style="mix-blend-mode:normal"/>
+   <text id="txt-home" transform="scale(.976 1.02)" x="15.256162" y="8.6497364" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.03px" font-weight="bold" letter-spacing=".166px" stroke-linecap="round" stroke-width=".246" text-align="center" text-anchor="middle" word-spacing=".00945px" style="line-height:1.2;mix-blend-mode:normal" xml:space="preserve"><tspan x="15.290218" y="8.6497364" fill="#ffffff" font-size="1.03px" stroke-width=".246">HOME</tspan></text>
+   <path id="view-home-icon" d="m14.9 1.12c-0.0403 0.00204-0.0792 0.0132-0.115 0.0344l-2.88 1.73c-0.142 0.085-0.17 0.298-0.0638 0.477l0.0202 0.034c0.106 0.179 0.306 0.255 0.448 0.17l0.182-0.109h0.021c-0.0059 0.0306-0.0106 0.0622-0.0106 0.0953v2.69c0 0.215 0.133 0.389 0.299 0.389h1.53v-1.88h1.37v1.88h1.56c0.165 0 0.299-0.173 0.299-0.389v-2.69c0-0.028-0.0028-0.0553-0.0072-0.0816l0.159 0.0953c0.142 0.085 0.341 0.00908 0.448-0.17l0.0202-0.034c0.106-0.179 0.0782-0.392-0.0634-0.477l-2.88-1.73c-0.0672-0.0403-0.147-0.0441-0.225-0.0181-0.0365-0.0123-0.0734-0.0181-0.11-0.0163z" fill="#fff" stroke-linejoin="round" stroke-width="1.08"/>
+  </g>
+ </g>
+</svg>
