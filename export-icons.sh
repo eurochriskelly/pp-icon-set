@@ -5,8 +5,21 @@
  mkdir -p out
 
  # Get list of icon IDs from the SVG file
- icon_ids=$(xmlstarlet sel -t -m "//*[@id='id-icon-collection']/*[@id]" -v "@id" -n
- graphics/icons-opt-test.svg)
+ echo "Extracting icon IDs from SVG file..."
+ icon_ids=$(xmlstarlet sel -t -m "//*[@id='id-icon-collection']/*[@id]" -v "@id" -n graphics/icons-opt-test.svg 2>&1)
+ 
+ if [ $? -ne 0 ]; then
+   echo "ERROR: Failed to extract icon IDs. XMLStarlet output:"
+   echo "$icon_ids"
+   exit 1
+ fi
+ 
+ if [ -z "$icon_ids" ]; then
+   echo "ERROR: No icons found in SVG file. Check if id-icon-collection exists."
+   exit 1
+ fi
+ 
+ echo "Found $(echo "$icon_ids" | wc -l) icons to process"
 
  # Add SVG header and namespace
  SVG_HEADER='<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
