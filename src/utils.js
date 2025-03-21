@@ -6,9 +6,10 @@
  */
 function validateColors(fg, bg) {
   const colorRegex = /^(#[0-9a-fA-F]{3,6}|[a-zA-Z]+|rgba?\([^)]+\)|hsla?\([^)]+\))$/;
+  const { DEFAULT_FG, DEFAULT_BG } = require('./constants');
   const defaultColors = {
-    fg: 'red',
-    bg: 'yellow'
+    fg: DEFAULT_FG,
+    bg: DEFAULT_BG
   };
   
   return {

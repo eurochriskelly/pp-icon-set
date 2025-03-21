@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="4.9487518"
-     inkscape:cx="99.419009"
-     inkscape:cy="61.530667"
+     inkscape:zoom="3.9330167"
+     inkscape:cx="84.922091"
+     inkscape:cy="84.794962"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="id-icon-collection"
+     inkscape:current-layer="icon-start"
      inkscape:lockguides="false">
     <sodipodi:guide
        position="4.9773289,41.134969"
@@ -883,6 +883,68 @@
            stroke-width="0.270958"
            id="tspan41"
            style="fill:#ffffff">NOT PLAYED</tspan></text>
+    </g>
+    <g
+       id="icon-start"
+       style="display:inline"
+       transform="translate(-0.63199997,8.3376997)">
+      <rect
+         id="icon-start-clickable"
+         x="10.694709"
+         y="1.8159605"
+         width="9.8530178"
+         height="9.8530188"
+         fill="#f6d5ff"
+         fill-opacity="0.15052"
+         stroke="#d40055"
+         stroke-dasharray="0.0452804, 0.18112"
+         stroke-width="0.0279995"
+         style="display:inline;mix-blend-mode:normal;fill:#1c0322;fill-opacity:0.237251;stroke-miterlimit:4.1"
+         inkscape:label="icon-start-clickable" />
+      <text
+         x="15.562188"
+         y="10.442361"
+         fill="#216e0f"
+         stroke="#ffffff"
+         stroke-width="0.105981"
+         text-align="center"
+         style="font-weight:bold;font-size:1.05771px;line-height:1.2;font-family:'Devanagari Sangam MN';letter-spacing:0.0698125px;word-spacing:0.00396651px;text-anchor:middle;stroke:none;stroke-linecap:round;stroke-miterlimit:4.1;fill:#ffffff;fill-opacity:1"
+         xml:space="preserve"
+         id="text33"><tspan
+           x="15.597094"
+           y="10.442361"
+           fill="#216e0f"
+           font-size="1.05771px"
+           stroke="#ffffff"
+           stroke-width="0.105981"
+           id="tspan33"
+           style="stroke:none;fill:#ffffff;fill-opacity:1">START</tspan></text>
+      <g
+         fill="#35af18"
+         stroke-miterlimit="4.1"
+         stroke-width="0.5"
+         id="g35"
+         transform="matrix(0.77844616,0,0,0.77844616,3.4633296,0.60092052)"
+         style="fill:#ffffff">
+        <circle
+           cx="15.632"
+           cy="6.2793002"
+           r="3.5669999"
+           id="circle34"
+           style="fill:#ffffff" />
+      </g>
+      <g
+         id="icon-start-invert"
+         style="display:inline;fill:none;stroke-width:0.61404375;stroke-dasharray:none;stroke:#24221c"
+         transform="matrix(0.77844616,0,0,0.77844616,3.4633295,0.6009204)">
+        <path
+           d="M 14.498,4.4591 17.5021,6.2792 14.498,8.0993 Z"
+           stroke="#ffffff"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           id="path34"
+           style="fill:none;stroke-width:0.61404375;stroke-dasharray:none;stroke:#24221c" />
+      </g>
     </g>
   </g>
 </svg>

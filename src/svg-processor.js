@@ -18,11 +18,12 @@ class SvgProcessor {
    * @param {string} [config.bgColor='yellow'] - Background color
    */
   constructor(config) {
+    const { DEFAULT_FG, DEFAULT_BG, INPUT_FILE, OUTPUT_DIR } = require('./constants');
     this.config = {
-      inputFile: config.inputFile,
-      outputDir: config.outputDir,
-      fgColor: config.fgColor || 'red',
-      bgColor: config.bgColor || 'yellow'
+      inputFile: config.inputFile || INPUT_FILE,
+      outputDir: config.outputDir || OUTPUT_DIR,
+      fgColor: config.fgColor || DEFAULT_FG,
+      bgColor: config.bgColor || DEFAULT_BG
     };
     this.manipulator = new NodeManipulator(config);
     this.svgConstants = {

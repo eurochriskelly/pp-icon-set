@@ -132,5 +132,17 @@
    </g>
    <text transform="scale(.95 1.05)" x="47.282143" y="8.4709778" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.01px" font-weight="bold" letter-spacing=".147px" stroke-linecap="round" stroke-width=".271" text-align="center" text-anchor="middle" word-spacing=".00835px" style="line-height:1.2;mix-blend-mode:normal" xml:space="preserve"><tspan x="47.315311" y="8.4709778" fill="#ffffff" font-size="1.01px" stroke-width=".271">NOT PLAYED</tspan></text>
   </g>
+  <g id="icon-start" transform="translate(-.632 8.34)">
+   <g stroke-miterlimit="4.1">
+    <rect id="icon-start-clickable" x="10.7" y="1.82" width="9.85" height="9.85" fill="#1c0322" fill-opacity=".237" stroke="#d40055" stroke-dasharray="0.0452804, 0.18112" stroke-width=".028" style="mix-blend-mode:normal"/>
+    <text x="15.562188" y="10.442361" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.06px" font-weight="bold" letter-spacing=".0698px" stroke-linecap="round" stroke-width=".106" text-align="center" text-anchor="middle" word-spacing=".00397px" style="line-height:1.2" xml:space="preserve"><tspan x="15.597094" y="10.442361" fill="#ffffff" font-size="1.06px" stroke-width=".106">START</tspan></text>
+    <g transform="matrix(.778 0 0 .778 3.46 .601)" fill="#fff" stroke-width=".5">
+     <circle cx="15.6" cy="6.28" r="3.57" fill="#fff"/>
+    </g>
+   </g>
+   <g id="icon-start-invert" transform="matrix(.778 0 0 .778 3.46 .601)" fill="none" stroke="#24221c" stroke-width=".614">
+    <path d="m14.5 4.46 3 1.82-3 1.82z" fill="none" stroke="#24221c" stroke-linecap="round" stroke-linejoin="round" stroke-width=".614"/>
+   </g>
+  </g>
  </g>
 </svg>

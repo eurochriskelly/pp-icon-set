@@ -10,7 +10,11 @@ class NodeManipulator {
    * @param {string} config.bgColor - Background color
    */
   constructor(config) {
-    this.config = config;
+    const { DEFAULT_FG, DEFAULT_BG } = require('./constants');
+    this.config = {
+      fgColor: config.fgColor || DEFAULT_FG,
+      bgColor: config.bgColor || DEFAULT_BG
+    };
   }
 
   processNode(node) {
