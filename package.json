@@ -1,0 +1,21 @@
+{
+  "name": "pp-icon-set",
+  "version": "1.0.0",
+  "main": "bin/export-icons.js",
+  "bin": {
+    "export-icons": "./bin/export-icons.js"
+  },
+  "scripts": {
+    "start": "node bin/export-icons.js",
+    "export": "node bin/export-icons.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.10",
+    "xpath": "^0.0.34",
+    "yargs": "^17.7.2"
+  }
+}
