@@ -2,6 +2,7 @@
 
 const SvgProcessor = require('../src/svg-processor');
 const { validateColors } = require('../src/utils');
+const { INPUT_FILE } = require('../src/constants');
 
 (async () => {
   try {
@@ -13,7 +14,7 @@ const { validateColors } = require('../src/utils');
     
     // Process SVG
     const processor = new SvgProcessor({
-      inputFile: 'graphics/icons-opt-test.svg',
+      inputFile: INPUT_FILE,
       outputDir: 'out',
       fgColor: validFg,
       bgColor: validBg

@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="3.9330167"
-     inkscape:cx="84.922091"
-     inkscape:cy="84.794962"
+     inkscape:zoom="6.9881315"
+     inkscape:cx="32.912947"
+     inkscape:cy="58.885555"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="icon-start"
+     inkscape:current-layer="icon-schedule"
      inkscape:lockguides="false">
     <sodipodi:guide
        position="4.9773289,41.134969"
@@ -402,7 +402,8 @@
       <g
          id="view-schedule-icon"
          transform="matrix(0.7736121,0,0,0.81252672,-16.190899,-24.8862)"
-         stroke-width="0.92856">
+         stroke-width="0.92856"
+         style="display:inline;stroke:none;fill:#ffffff;fill-opacity:1;stroke-width:0.92831926;stroke-dasharray:none">
         <rect
            x="24.176001"
            y="32.848"
@@ -411,7 +412,8 @@
            rx="0.47384"
            ry="0.51898003"
            fill="#ffffff"
-           id="rect4" />
+           id="rect4"
+           style="stroke:none;fill:#ffffff;fill-opacity:1;stroke-width:0.92831926;stroke-dasharray:none" />
         <circle
            cx="29.33"
            cy="37.867001"
@@ -421,7 +423,8 @@
            stroke-linejoin="round"
            stroke-miterlimit="4.1"
            stroke-width="0.27857"
-           id="circle4" />
+           id="icon-schedule-item-clockface-locked"
+           style="stroke:none;stroke-width:0.92831926;stroke-dasharray:none;fill:#ffffff;fill-opacity:1" />
       </g>
       <g
          stroke-width="0.92856"
@@ -507,6 +510,17 @@
            ry="0.33855"
            fill="#53614f"
            id="rect11" />
+        <circle
+           cx="29.33"
+           cy="37.867001"
+           r="1.5022"
+           fill="#ffffff"
+           stroke="#50614d"
+           stroke-linejoin="round"
+           stroke-miterlimit="4.1"
+           stroke-width="0.27857"
+           id="icon-schedule-item-clockedge"
+           style="stroke:#818181;fill:none;stroke-opacity:1" />
       </g>
       <g
          id="g1">
@@ -883,6 +897,21 @@
            stroke-width="0.270958"
            id="tspan41"
            style="fill:#ffffff">NOT PLAYED</tspan></text>
+      <g
+         id="icon-notplayed-invert"
+         style="display:inline"
+         transform="matrix(1.5652775,0,0,1.5652775,-32.620336,-1.4051695)">
+        <circle
+           cx="49.581688"
+           cy="3.3807805"
+           r="1.3565253"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="4.1"
+           stroke-width="0.37747"
+           id="circle56"
+           style="fill:none;stroke:#ff0000;stroke-width:0.103378;stroke-dasharray:none" />
+      </g>
     </g>
     <g
        id="icon-start"

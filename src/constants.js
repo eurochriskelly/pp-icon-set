@@ -6,7 +6,7 @@ module.exports = {
      'xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">',
    SVG_FOOTER: '</svg>',
    OUTPUT_DIR: 'out',
-   INPUT_FILE: 'graphics/icons-opt-test.svg',
+   INPUT_FILE: 'graphics/icons-opt.svg',
    SUPPORTED_FORMATS: ['svg', 'png', 'jpg'],
    DEFAULT_CLICKABLE_COLOR: 'yellow',
    DEFAULT_SCALE_FACTOR: 1.2,

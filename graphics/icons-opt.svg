@@ -63,7 +63,7 @@
    <text id="txt-schedule" transform="scale(.976 1.02)" x="4.9840231" y="8.6497364" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.03px" font-weight="bold" letter-spacing=".166px" stroke-linecap="round" stroke-miterlimit="4.1" stroke-width=".246" text-align="center" text-anchor="middle" word-spacing=".00945px" style="line-height:1.2;mix-blend-mode:normal" xml:space="preserve"><tspan x="5.0180807" y="8.6497364" fill="#ffffff" font-size="1.03px" stroke-width=".246">SCHEDULE</tspan></text>
    <g id="view-schedule-icon" transform="matrix(.774 0 0 .813 -16.2 -24.9)" fill="#fff" stroke-width=".929">
     <rect x="24.2" y="32.8" width="5.5" height="4.77" rx=".474" ry=".519"/>
-    <circle cx="29.3" cy="37.9" r="1.5" stroke="#50614d" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
+    <circle id="icon-schedule-item-clockface-locked" cx="29.3" cy="37.9" r="1.5" stroke="#50614d" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
    </g>
    <g id="icon-schedule-invert" transform="matrix(.774 0 0 .813 -16.2 -24.9)" stroke-width=".929">
     <g fill="#53614f">
@@ -77,6 +77,7 @@
     <path d="m29.4 37v0.866h0.657" fill="none" stroke="#50614d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
     <rect x="25.1" y="32" width="1.16" height="1.5" rx=".41" ry=".339" fill="#53614f"/>
     <rect x="27.6" y="32" width="1.16" height="1.5" rx=".41" ry=".339" fill="#53614f"/>
+    <circle id="icon-schedule-item-clockedge" cx="29.3" cy="37.9" r="1.5" fill="none" stroke="#818181" stroke-linejoin="round" stroke-miterlimit="4.1" stroke-width=".279"/>
    </g>
    <g fill="#fff">
     <rect transform="matrix(.774 0 0 .813 -16.2 -24.9)" x="25.4" y="32.3" width=".614" height=".956" rx=".193" ry=".156"/>
@@ -124,13 +125,16 @@
     </g>
    </g>
   </g>
-  <g id="icon-notplayed" stroke-miterlimit="4.1">
-   <rect id="icon-notplayed-clickable" x="40.1" y=".143" width="9.85" height="9.85" fill="#1c0322" fill-opacity=".237" stroke="#d40055" stroke-dasharray="0.0452804, 0.18112" stroke-width=".028" style="mix-blend-mode:normal"/>
-   <g transform="matrix(1.57 0 0 1.57 -32.6 -1.41)" fill="none" stroke="#fff">
+  <g id="icon-notplayed">
+   <rect id="icon-notplayed-clickable" x="40.1" y=".143" width="9.85" height="9.85" fill="#1c0322" fill-opacity=".237" stroke="#d40055" stroke-dasharray="0.0452804, 0.18112" stroke-miterlimit="4.1" stroke-width=".028" style="mix-blend-mode:normal"/>
+   <g transform="matrix(1.57 0 0 1.57 -32.6 -1.41)" fill="none" stroke="#fff" stroke-miterlimit="4.1">
     <circle cx="49.6" cy="3.38" r="1.6" stroke-width=".377"/>
     <path d="m50.7 2.32-2.33 2.13" stroke-linejoin="round" stroke-width=".613"/>
    </g>
-   <text transform="scale(.95 1.05)" x="47.282143" y="8.4709778" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.01px" font-weight="bold" letter-spacing=".147px" stroke-linecap="round" stroke-width=".271" text-align="center" text-anchor="middle" word-spacing=".00835px" style="line-height:1.2;mix-blend-mode:normal" xml:space="preserve"><tspan x="47.315311" y="8.4709778" fill="#ffffff" font-size="1.01px" stroke-width=".271">NOT PLAYED</tspan></text>
+   <text transform="scale(.95 1.05)" x="47.282143" y="8.4709778" fill="#ffffff" font-family="'Devanagari Sangam MN'" font-size="1.01px" font-weight="bold" letter-spacing=".147px" stroke-linecap="round" stroke-miterlimit="4.1" stroke-width=".271" text-align="center" text-anchor="middle" word-spacing=".00835px" style="line-height:1.2;mix-blend-mode:normal" xml:space="preserve"><tspan x="47.315311" y="8.4709778" fill="#ffffff" font-size="1.01px" stroke-width=".271">NOT PLAYED</tspan></text>
+   <g id="icon-notplayed-invert" transform="matrix(1.57 0 0 1.57 -32.6 -1.41)">
+    <circle cx="49.6" cy="3.38" r="1.36" fill="none" stroke="#f00" stroke-miterlimit="4.1" stroke-width=".103"/>
+   </g>
   </g>
   <g id="icon-start" transform="translate(-.632 8.34)">
    <g stroke-miterlimit="4.1">
