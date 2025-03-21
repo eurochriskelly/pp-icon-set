@@ -41,8 +41,17 @@ class NodeManipulator {
     return clone.toString();
   }
 
+  isLockedElement(node) {
+    return node.getAttribute('id')?.endsWith('-locked');
+  }
+
   applyStylingRules(node) {
     const { fgColor = 'red', bgColor = 'yellow' } = this.config;
+    
+    // Skip locked elements
+    if (this.isLockedElement(node)) {
+      return;
+    }
     
     // Handle clickable area first
     if (this.isClickableArea(node)) {
@@ -113,7 +122,7 @@ class NodeManipulator {
 
   handleInversionGroup(node, bgColor) {
     Array.from(node.childNodes).forEach(child => {
-      if (child.nodeType === 1) { // Only process element nodes
+      if (child.nodeType === 1 && !this.isLockedElement(child)) { // Only process element nodes and skip locked
         if (child.hasAttribute('fill') && child.getAttribute('fill') !== 'none') {
           child.setAttribute('fill', bgColor);
           child.removeAttribute('stroke');
